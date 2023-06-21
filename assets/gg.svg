@@ -1,0 +1,19 @@
+<svg id="google-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.273" height="29.953" viewBox="0 0 29.273 29.953">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_131" data-name="Path 131" d="M30.387,13.708H16.431v5.786h8.033c-.749,3.676-3.88,5.786-8.033,5.786a8.85,8.85,0,0,1,0-17.7,8.658,8.658,0,0,1,5.514,1.974L26.3,5.2a14.967,14.967,0,1,0-9.871,26.209c7.488,0,14.3-5.446,14.3-14.977A12.424,12.424,0,0,0,30.387,13.708Z" transform="translate(-1.455 -1.455)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2" data-name="Group 2" clip-path="url(#clip-path)">
+    <path id="Path_130" data-name="Path 130" d="M0,25.7V8l11.573,8.85Z" transform="translate(-1.362 -1.873)" fill="#fbbc05"/>
+  </g>
+  <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path)">
+    <path id="Path_132" data-name="Path 132" d="M0,7.488l11.573,8.85,4.765-4.153L32.676,9.531V0H0Z" transform="translate(-1.362 -1.362)" fill="#ea4335"/>
+  </g>
+  <g id="Group_4" data-name="Group 4" clip-path="url(#clip-path)">
+    <path id="Path_134" data-name="Path 134" d="M0,25.188,20.423,9.531l5.378.681L32.676,0V32.676H0Z" transform="translate(-1.362 -1.362)" fill="#34a853"/>
+  </g>
+  <g id="Group_5" data-name="Group 5" clip-path="url(#clip-path)">
+    <path id="Path_136" data-name="Path 136" d="M33.281,33.188,12.178,16.85,9.455,14.808,33.281,8Z" transform="translate(-1.966 -1.873)" fill="#4285f4"/>
+  </g>
+</svg>
