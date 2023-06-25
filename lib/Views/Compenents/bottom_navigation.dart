@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:one_place/Views/chose.dart';
 import 'package:one_place/Views/orderspage.dart';
+import 'package:one_place/Views/select_service.dart';
 import 'package:one_place/Views/settings.dart';
 import '../../Constants.dart';
 import '../../Controllers/buttom_navigation_C.dart';
@@ -85,13 +87,18 @@ class CustomNavigationBar extends StatelessWidget {
                 ),
                 Padding(
                     padding: EdgeInsets.only(right: 10),
-                    child: Container(
-                        width: Get.width * 0.125,
-                        height: Get.width * 0.125,
-                        decoration: BoxDecoration(
-                          image: DecorationImage(
-                              image: AssetImage('assets/logo.png')),
-                        ))),
+                    child: InkWell(
+                      onTap: () {
+                        Get.to(ChosePage());
+                      },
+                      child: Container(
+                          width: Get.width * 0.125,
+                          height: Get.width * 0.125,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage('assets/logo.png')),
+                          )),
+                    )),
                 InkWell(
                   onTap: () {
                     bottomNavigationController.changecolor(2);

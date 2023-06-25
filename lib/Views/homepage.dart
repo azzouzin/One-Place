@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.only(top: Get.height * 0.03),
-                  child: docitem('assets/docpic0.png', 'Dr.Fellahi'),
+                  child: docitem('assets/docpic0.png', 'Dr.Khaled'),
                 ),
                 Padding(
                   padding: EdgeInsets.only(top: Get.height * 0.03),

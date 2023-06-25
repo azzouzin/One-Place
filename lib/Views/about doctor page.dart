@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:one_place/Views/appointment.dart';
+import 'package:one_place/Views/homepage.dart';
 
 import '../Constants.dart';
 import 'signup.dart';
@@ -164,6 +165,20 @@ class _AboutDoctortState extends State<AboutDoctor> {
           ),
           Row(
             children: [
+              Padding(
+                padding: EdgeInsets.only(left: Get.width * 0.1),
+                child: InkWell(
+                    onTap: () {
+                      Get.to(() => HomePage());
+                    },
+                    child: ClipOval(
+                      child: Container(
+                        padding: EdgeInsets.all(10),
+                        color: Colors.white,
+                        child: Icon(Icons.arrow_back_ios),
+                      ),
+                    )),
+              ),
               Padding(
                 padding: EdgeInsets.all(Get.width * 0.1),
                 child: Image.asset(

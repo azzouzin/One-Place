@@ -72,7 +72,7 @@ class _SignupPagetate extends State<SignupPage> {
                         padding: EdgeInsets.only(
                             bottom: 10, right: Get.size.width * 0.5),
                         child: Text(
-                          "First Name",
+                          "Full Name",
                           style: TextStyle(
                               color: txtclr, fontSize: Get.width * 0.04),
                         ),
@@ -81,7 +81,7 @@ class _SignupPagetate extends State<SignupPage> {
                         screenheight * 0.048596112311,
                         screenwitdh * 0.785219399538,
                         nameController1,
-                        'First name',
+                        'Full name',
                       ),
                       SizedBox(
                         height: screenheight * 0.04,
@@ -90,7 +90,7 @@ class _SignupPagetate extends State<SignupPage> {
                         padding: EdgeInsets.only(
                             bottom: 7, right: Get.size.width * 0.5),
                         child: Text(
-                          "Last Name ",
+                          "Email           ",
                           style: TextStyle(
                               color: txtclr, fontSize: Get.width * 0.04),
                         ),
@@ -99,7 +99,7 @@ class _SignupPagetate extends State<SignupPage> {
                         screenheight * 0.048596112311,
                         screenwitdh * 0.785219399538,
                         surnameController2,
-                        'Last name',
+                        'Email',
                       ),
                       SizedBox(
                         height: screenheight * 0.04,
